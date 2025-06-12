@@ -1,0 +1,51 @@
+{
+  "name": "vite-iconfont-loader",
+  "version": "1.0.0",
+  "description": "A Vite plugin for on-demand loading of iconfont icons",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "build": "node build/index.js"
+  },
+  "keywords": [
+    "vite",
+    "iconfont",
+    "vue",
+    "vue3",
+    "frontend"
+  ],
+  "author": {
+    "name": "flicat",
+    "email": "liyuelong1020@gmail.com",
+    "url": "https://github.com/flicat"
+  },
+  "devDependencies": {
+    "glob": "^10.3.10"
+  },
+  "peerDependencies": {
+    "svgo": "^3.2.0",
+    "vue": "^3.3.8",
+    "vite": "^5.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flicat/pl-mobile2.git"
+  },
+  "homepage": "https://flicat.github.io/pl-mobile2/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flicat/pl-mobile2/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js"
+    }
+  }
+}
