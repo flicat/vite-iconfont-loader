@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:flicat/pl-mobile2.git"
+    "url": "git@github.com:flicat/vite-iconfont-loader.git"
   },
-  "homepage": "https://flicat.github.io/pl-mobile2/",
+  "homepage": "https://flicat.github.io/vite-iconfont-loader/",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flicat/pl-mobile2/issues"
+    "url": "https://github.com/flicat/vite-iconfont-loader/issues"
   },
   "files": [
     "lib"
